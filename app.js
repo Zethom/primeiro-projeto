@@ -1,13 +1,13 @@
 mensagemInicial();
 
 let listaDeNumerosSecretos = [];
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 let numeroSecreto = gerarNumero10();
 let tentativas = 1;
 
 function mensagemInicial(){
     exibirTexto(`h1`, `Jogo Secreto`);
-    exibirTexto(`p`, `Escolha um número entre 1 e 10:`);
+    exibirTexto(`p`, `Escolha um número entre 1 e ${numeroMaximo}:`);
 }
 
 function exibirTexto(tag, texto) {
