@@ -1,7 +1,7 @@
 mensagemInicial();
 
 let listaDeNumerosSecretos = [];
-let numeroMaximo = 100;
+let numeroMaximo = 50;
 let numeroSecreto = gerarNumero10();
 let tentativas = 1;
 
