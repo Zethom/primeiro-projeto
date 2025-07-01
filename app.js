@@ -1,9 +1,9 @@
-mensagemInicial();
-
 let listaDeNumerosSecretos = [];
 let numeroMaximo = 100;
 let numeroSecreto = gerarNumero10();
 let tentativas = 1;
+
+mensagemInicial();
 
 function mensagemInicial(){
     exibirTexto(`h1`, `Jogo Secreto`);
